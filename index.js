@@ -93,7 +93,7 @@ class App extends React.Component{
                 <h1 className="f1">RoboFriends</h1>
                 <SearchBox searchChange={this.onSearchChange} />
                 <Scroll>
-                    <CardList list={filteredRobots} />
+                    <CardList list={robots} />
                 </Scroll>
             </div>
         );
